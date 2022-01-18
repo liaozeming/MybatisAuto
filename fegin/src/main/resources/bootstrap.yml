@@ -1,5 +1,7 @@
 server:
   port: 9992
+#  servlet:
+#    context-path: /fegin
 spring:
   application:
     name: @artifactId@
@@ -39,6 +41,12 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     # 返回类型为Map,显示null对应的字段
     call-setters-on-nulls: true
+feign:
+  sentinel:
+    enabled: true
+resttemplate:
+  sentinel:
+    enabled: true
 #  cloud:
 #    nacos:
 #      discovery:

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac4d24d6-0939-4eb0-9e49-b74383c7036b" name="Changes" comment="fegin  nacos   微服务">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/MybatisRemoteApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/fallback/MybatisRemoteApiFallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/fallback/MybatisRemoteApiFallbackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fegin/src/main/java/com/lzm/fegin/FeginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fegin/src/main/java/com/lzm/fegin/FeginApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fegin/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fegin/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -29,6 +30,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.6.3" />
       </MavenGeneralSettings>
     </option>
@@ -57,7 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12674272" />
     <property name="project.structure.side.proportion" value="0.26549587" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -71,8 +73,8 @@
       <recent name="E:\WorkSpace\MybatisAuto\fegin\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lzm.fegin" />
       <recent name="com.lzm.fegin.controller" />
+      <recent name="com.lzm.fegin" />
       <recent name="com.lzm.mybatisapi" />
       <recent name="com.lzm.mybatisapi.fallback" />
       <recent name="com.lzm.mybatisapi.factory" />
@@ -82,6 +84,11 @@
     <option name="configurationTypes">
       <set>
         <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
       </set>
     </option>
   </component>
@@ -99,18 +106,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeGeneratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzm.mybatisAuto.AutoGenerateMapper.CodeGeneratorTest" />
-      <module name="MybatisAuto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzm.mybatisAuto.AutoGenerateMapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="ComonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="common" />
@@ -119,8 +119,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="FeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="fegin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzm.fegin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.fegin.FeginApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +187,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CodeGeneratorTest (1)" />
+      <item itemvalue="HTTP Request.generated-requests#2" />
+      <item itemvalue="HTTP Request.generated-requests#8" />
+      <item itemvalue="Spring Boot.ComonApplication" />
+      <item itemvalue="Spring Boot.MybatisApiApplication" />
+      <item itemvalue="Spring Boot.MybatisApiApplication (1)" />
+      <item itemvalue="Spring Boot.MybatisApplication" />
+      <item itemvalue="Spring Boot.MybatisAutoApplication" />
+      <item itemvalue="Spring Boot.MybatisAutoApplication (1)" />
+      <item itemvalue="Spring Boot.MybatisBizApplication" />
+      <item itemvalue="Spring Boot.FeginApplication" />
+      <item itemvalue="Spring Boot.MybatisBizApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FeginApplication" />
+        <item itemvalue="HTTP Request.generated-requests#8" />
+        <item itemvalue="HTTP Request.generated-requests#2" />
         <item itemvalue="Spring Boot.MybatisBizApplication (1)" />
         <item itemvalue="Application.CodeGeneratorTest (1)" />
-        <item itemvalue="Application.CodeGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +228,7 @@
       <workItem from="1642450040843" duration="266000" />
       <workItem from="1642450319031" duration="1002000" />
       <workItem from="1642451338572" duration="35000" />
-      <workItem from="1642451410417" duration="17990000" />
+      <workItem from="1642451410417" duration="33049000" />
     </task>
     <task id="LOCAL-00001" summary="fegin  nacos   微服务">
       <created>1642468046369</created>
@@ -215,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642468046369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fegin  nacos   微服务">
+      <created>1642472144770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642472144770</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,22 +265,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fegin  nacos   微服务" />
     <option name="LAST_COMMIT_MESSAGE" value="fegin  nacos   微服务" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/fegin/src/main/java/com/lzm/fegin/controller/FeginController.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/fallback/MybatisRemoteApiFallbackImpl.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

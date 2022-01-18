@@ -1,8 +1,10 @@
 server:
   port: 9991
+#  servlet:
+#    context-path: /MybatisBiz
 spring:
   application:
-    name: MybatisBiz
+    name: @artifactId@
   cloud:
     nacos:
       discovery:
@@ -59,3 +61,9 @@ mybatis-plus:
 #      exposure:
 #        include:  '*'
 
+feign:
+  sentinel:
+    enabled: true
+resttemplate:
+  sentinel:
+    enabled: true

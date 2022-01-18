@@ -9,7 +9,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Slf4j
 @EnableDiscoveryClient
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.lzm")
 @EnableSwagger2
 @SpringBootApplication(scanBasePackages = "com.lzm")
 public class FeginApplication {
