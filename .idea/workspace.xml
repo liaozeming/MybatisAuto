@@ -4,38 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4d24d6-0939-4eb0-9e49-b74383c7036b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fegin/src/main/java/com/lzm/fegin/FeginApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fegin/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/factory/MybatisRemoteApiFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/fallback/MybatisRemoteApiFallbackImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/TestNacos/Nacos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="ac4d24d6-0939-4eb0-9e49-b74383c7036b" name="Changes" comment="fegin  nacos   微服务">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/MybatisAutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/MybatisBizApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/error/ErrorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/error/ErrorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/error/ErrorConfigInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/error/ErrorConfigInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/mapper/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/mapper/xml/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/swagger/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/swagger/CommonConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/swagger/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/swagger/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/swagger/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/swagger/Swagger2Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/vo/GlobalReturnCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/vo/GlobalReturnCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/vo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/vo/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lzm/mybatisAuto/AutoGenerateMapper/CodeGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/CodeGeneratorTest/CodeGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/fallback/MybatisRemoteApiFallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/fallback/MybatisRemoteApiFallbackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +57,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12674272" />
     <property name="project.structure.side.proportion" value="0.26549587" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -232,8 +206,16 @@
       <workItem from="1642450040843" duration="266000" />
       <workItem from="1642450319031" duration="1002000" />
       <workItem from="1642451338572" duration="35000" />
-      <workItem from="1642451410417" duration="13787000" />
+      <workItem from="1642451410417" duration="17990000" />
     </task>
+    <task id="LOCAL-00001" summary="fegin  nacos   微服务">
+      <created>1642468046369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642468046369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,13 +233,22 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fegin  nacos   微服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="fegin  nacos   微服务" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/controller/UserController.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/fegin/src/main/java/com/lzm/fegin/controller/FeginController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/fallback/MybatisRemoteApiFallbackImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -19,6 +19,6 @@ public class MybatisRemoteApiFallbackImpl implements MybatisRemoteApi {
 
     @Override
     public Result<String> test() {
-        return Result.error(cause.getMessage());
+        return Result.error("123");
     }
 }

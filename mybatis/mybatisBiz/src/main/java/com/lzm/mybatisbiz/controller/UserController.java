@@ -37,7 +37,7 @@ public class UserController {
     @ApiOperation(value = "test")
     @GetMapping("/test")
     public Result<String> test() {
-        return Result.okk(GlobalReturnCode.SC_OK_200.toString());
+        return Result.okk("GlobalReturnCode.SC_OK_200.toString()");
     }
 
 
