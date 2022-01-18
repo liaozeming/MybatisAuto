@@ -4,11 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4d24d6-0939-4eb0-9e49-b74383c7036b" name="Changes" comment="" />
+    <list default="true" id="ac4d24d6-0939-4eb0-9e49-b74383c7036b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fegin/src/main/java/com/lzm/fegin/FeginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fegin/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/factory/MybatisRemoteApiFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/fallback/MybatisRemoteApiFallbackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/TestNacos/Nacos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/MybatisAutoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/MybatisBizApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/error/ErrorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/error/ErrorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/error/ErrorConfigInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/error/ErrorConfigInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/mapper/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/mapper/xml/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/swagger/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/swagger/CommonConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/swagger/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/swagger/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/swagger/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/swagger/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/vo/GlobalReturnCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/vo/GlobalReturnCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto/vo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lzm/common/vo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lzm/mybatisAuto/AutoGenerateMapper/CodeGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/CodeGeneratorTest/CodeGeneratorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -18,6 +60,7 @@
     </option>
   </component>
   <component name="ProjectId" id="23WKLOixqbtWUGRjMPrKuz36CMZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -32,17 +75,33 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lzm/mybatisAuto" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fegin/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.12674272" />
+    <property name="project.structure.side.proportion" value="0.26549587" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WorkSpace\MybatisAuto\src\main\java\com\lzm\mybatisAuto" />
-      <recent name="E:\WorkSpace\MybatisAuto\src\main\resources" />
+      <recent name="E:\WorkSpace\MybatisAuto\fegin\src\main\resources" />
+      <recent name="E:\WorkSpace\MybatisAuto\mybatis\mybatisBiz\src\main\java\com\lzm\mybatisbiz\test" />
+      <recent name="E:\WorkSpace\MybatisAuto\common\src\main\java\com\lzm\comon" />
+      <recent name="E:\WorkSpace\MybatisAuto\mybatis\mybatisApi\src\main\java\com\lzm\mybatisapi" />
+      <recent name="E:\WorkSpace\MybatisAuto\fegin\src\main\java\com\lzm\fegin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace\MybatisAuto\fegin\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lzm.mybatisauto.AutoGenerateMapper" />
+      <recent name="com.lzm.fegin" />
+      <recent name="com.lzm.fegin.controller" />
+      <recent name="com.lzm.mybatisapi" />
+      <recent name="com.lzm.mybatisapi.fallback" />
+      <recent name="com.lzm.mybatisapi.factory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -52,7 +111,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MybatisAutoApplication">
+  <component name="RunManager" selected="Spring Boot.FeginApplication">
+    <configuration name="CodeGeneratorTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzm.mybatisbiz.CodeGeneratorTest.CodeGeneratorTest" />
+      <module name="mybatisBiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzm.mybatisbiz.CodeGeneratorTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodeGeneratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzm.mybatisAuto.AutoGenerateMapper.CodeGeneratorTest" />
       <module name="MybatisAuto" />
@@ -66,6 +138,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fegin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.fegin.FeginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatisApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mybatisapi.MybatisApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MybatisApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mybatisapi.MybatisApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mybatis.MybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisAutoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatisBiz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mybatisAuto.MybatisBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisAutoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MybatisAuto" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mybatisAuto.MybatisAutoApplication" />
@@ -73,8 +187,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisBizApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="fegin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzm.fegin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.fegin.MybatisBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisBizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatisBiz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mybatisbiz.MybatisBizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MybatisBizApplication (1)" />
+        <item itemvalue="Application.CodeGeneratorTest (1)" />
         <item itemvalue="Application.CodeGeneratorTest" />
       </list>
     </recent_temporary>
@@ -87,12 +223,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641844350053</updated>
-      <workItem from="1641844351319" duration="6116000" />
+      <workItem from="1641844351319" duration="10377000" />
+      <workItem from="1641975931766" duration="3302000" />
+      <workItem from="1642436742917" duration="927000" />
+      <workItem from="1642437853087" duration="4560000" />
+      <workItem from="1642447107269" duration="1767000" />
+      <workItem from="1642448902669" duration="1119000" />
+      <workItem from="1642450040843" duration="266000" />
+      <workItem from="1642450319031" duration="1002000" />
+      <workItem from="1642451338572" duration="35000" />
+      <workItem from="1642451410417" duration="13787000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis/mybatisBiz/src/main/java/com/lzm/mybatisbiz/controller/UserController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

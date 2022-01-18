@@ -1,0 +1,9 @@
+#微信相关配置
+weixin:
+  AppId: wxf2e55f9b7cc78a6d
+  AppSecret: 9280f8d93e7508bfc91b87cd4fe45194
+  mpAppId: wxfbb8bac1cbd1537d
+  mpAppSecret: 6e903e4290eab90a7a0157c75a0412c8
+  get-wxcode-url: https://api.weixin.qq.com/wxa/getwxacode?access_token=
+  wxcode-width: 640px
+  test: test

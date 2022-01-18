@@ -7,13 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MybatisAuto" />
+        <module name="mybatisBiz" />
+        <module name="common" />
+        <module name="mybatisApi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MybatisApi" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MybatisApi" options="-parameters" />
       <module name="MybatisAuto" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="fegin" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
+      <module name="mybatisApi" options="-parameters" />
+      <module name="mybatisBiz" options="-parameters" />
     </option>
   </component>
 </project>
