@@ -8,9 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisApi" />
+        <module name="mongodb" />
+        <module name="mongoDb" />
+        <module name="nettyDmo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mongodb" target="1.8" />
       <module name="MybatisApi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -20,9 +24,12 @@
       <module name="MybatisAuto" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="fegin" options="-parameters" />
+      <module name="mongoDb" options="-parameters" />
+      <module name="mongodb" options="-parameters" />
       <module name="mybatis" options="-parameters" />
       <module name="mybatisApi" options="-parameters" />
       <module name="mybatisBiz" options="-parameters" />
+      <module name="nettyDmo" options="-parameters" />
     </option>
   </component>
 </project>

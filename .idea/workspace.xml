@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac4d24d6-0939-4eb0-9e49-b74383c7036b" name="Changes" comment="fegin  nacos   微服务">
-      <change afterPath="$PROJECT_DIR$/mybatis/mybatisApi/src/main/java/com/lzm/mybatisapi/MybatisRemoteApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDb/src/main/java/com/lzm/mongodb/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDb/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/Server/ChatRoomHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/Server/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/Server/NettyServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/Server/NettyWebsocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/client/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/client/NettyClientFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/client/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/client/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/server/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/server/NettyServerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/server/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/server/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fegin/src/main/java/com/lzm/fegin/FeginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fegin/src/main/java/com/lzm/fegin/FeginApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fegin/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fegin/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatisBiz/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,22 +68,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fegin/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12674272" />
     <property name="project.structure.side.proportion" value="0.26549587" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WorkSpace\MybatisAuto\fegin\src\main\resources" />
-      <recent name="E:\WorkSpace\MybatisAuto\mybatis\mybatisBiz\src\main\java\com\lzm\mybatisbiz\test" />
-      <recent name="E:\WorkSpace\MybatisAuto\common\src\main\java\com\lzm\comon" />
-      <recent name="E:\WorkSpace\MybatisAuto\mybatis\mybatisApi\src\main\java\com\lzm\mybatisapi" />
-      <recent name="E:\WorkSpace\MybatisAuto\fegin\src\main\java\com\lzm\fegin" />
+      <recent name="E:\WorkSpace\MybatisAuto\nettyDmo\src\main\java\com\lzm\netty\hello" />
+      <recent name="E:\WorkSpace\MybatisAuto\nettyDmo\src\main\resources\static" />
+      <recent name="E:\WorkSpace\MybatisAuto\nettyDmo\src\main\java\com\lzm\netty" />
+      <recent name="E:\WorkSpace\MybatisAuto\mongoDb\src\main\resources" />
+      <recent name="E:\WorkSpace\MybatisAuto\mongodb\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace\MybatisAuto\mongodb\src" />
+      <recent name="E:\WorkSpace\MybatisAuto\mongodb\src\main" />
+      <recent name="E:\WorkSpace\MybatisAuto\mongodb\src\main\java" />
       <recent name="E:\WorkSpace\MybatisAuto\fegin\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -92,13 +109,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeginApplication">
-    <configuration name="CodeGeneratorTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzm.mybatisbiz.CodeGeneratorTest.CodeGeneratorTest" />
-      <module name="mybatisBiz" />
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzm.netty.hello.client.NettyClient" />
+      <module name="nettyDmo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzm.mybatisbiz.CodeGeneratorTest.*" />
+          <option name="PATTERN" value="com.lzm.netty.hello.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +123,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
-      <method v="2" />
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzm.netty.hello.server.NettyServer" />
+      <module name="nettyDmo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzm.netty.hello.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="generated-requests#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" runType="Run single request">
-      <method v="2" />
+    <configuration name="MongoDbApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoDb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzm.mongodb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzm.mongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.lzm.mongodb.MongoDbApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoDbApplicationTests.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoDb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzm.mongodb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzm.mongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.lzm.mongodb.MongoDbApplicationTests" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoDbApplicationTests.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoDb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzm.mongodb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzm.mongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.lzm.mongodb.MongoDbApplicationTests" />
+      <option name="METHOD_NAME" value="find" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ComonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="common" />
@@ -119,15 +190,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="FeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="fegin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzm.fegin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.fegin.FeginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoDbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mongoDb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mongodb.MongoDbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mongodb.MongodbApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,19 +246,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisBizApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="fegin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzm.fegin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.fegin.MybatisBizApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MybatisBizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mybatisBiz" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.mybatisbiz.MybatisBizApplication" />
@@ -187,10 +253,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NettyDmoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nettyDmo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.netty.NettyDmoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CodeGeneratorTest (1)" />
-      <item itemvalue="HTTP Request.generated-requests#2" />
-      <item itemvalue="HTTP Request.generated-requests#8" />
+      <item itemvalue="JUnit.MongoDbApplicationTests" />
+      <item itemvalue="JUnit.MongoDbApplicationTests.add" />
+      <item itemvalue="JUnit.MongoDbApplicationTests.find" />
       <item itemvalue="Spring Boot.ComonApplication" />
       <item itemvalue="Spring Boot.MybatisApiApplication" />
       <item itemvalue="Spring Boot.MybatisApiApplication (1)" />
@@ -198,16 +271,20 @@
       <item itemvalue="Spring Boot.MybatisAutoApplication" />
       <item itemvalue="Spring Boot.MybatisAutoApplication (1)" />
       <item itemvalue="Spring Boot.MybatisBizApplication" />
+      <item itemvalue="Spring Boot.MongodbApplication" />
+      <item itemvalue="Spring Boot.MongoDbApplication" />
+      <item itemvalue="Spring Boot.NettyDmoApplication" />
       <item itemvalue="Spring Boot.FeginApplication" />
-      <item itemvalue="Spring Boot.MybatisBizApplication (1)" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.NettyServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.FeginApplication" />
-        <item itemvalue="HTTP Request.generated-requests#8" />
-        <item itemvalue="HTTP Request.generated-requests#2" />
-        <item itemvalue="Spring Boot.MybatisBizApplication (1)" />
-        <item itemvalue="Application.CodeGeneratorTest (1)" />
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="JUnit.MongoDbApplicationTests.find" />
+        <item itemvalue="JUnit.MongoDbApplicationTests.add" />
+        <item itemvalue="JUnit.MongoDbApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +306,9 @@
       <workItem from="1642450319031" duration="1002000" />
       <workItem from="1642451338572" duration="35000" />
       <workItem from="1642451410417" duration="33049000" />
+      <workItem from="1642770818870" duration="3505000" />
+      <workItem from="1642780011726" duration="3559000" />
+      <workItem from="1642990235238" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary="fegin  nacos   微服务">
       <created>1642468046369</created>
@@ -265,6 +345,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fegin  nacos   微服务" />
     <option name="LAST_COMMIT_MESSAGE" value="fegin  nacos   微服务" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mongodb/src/TestMongodb/testCreateCollection.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

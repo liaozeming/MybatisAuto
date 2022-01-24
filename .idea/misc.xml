@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/fegin/pom.xml" />
         <option value="$PROJECT_DIR$/comon/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/mongoDb/pom.xml" />
+        <option value="$PROJECT_DIR$/nettyDmo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
