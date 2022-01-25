@@ -28,6 +28,8 @@
         <module>fegin</module>
         <module>mybatis</module>
         <module>common</module>
+        <module>dubboConsumer</module>
+        <module>dubboApi</module>
     </modules>
 
     <build>

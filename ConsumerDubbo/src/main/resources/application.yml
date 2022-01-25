@@ -1,0 +1,14 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: dubboConsumer
+  registry:
+    address: 127.0.0.1:2181
+    protocol: zookeeper
+
+  protocol:
+    name: dubbo
+    port: 20882
+  monitor:
+    protocol: registry #连接监控中心 注册中心协议

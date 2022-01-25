@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4d24d6-0939-4eb0-9e49-b74383c7036b" name="Changes" comment="fegin  nacos   微服务">
-      <change afterPath="$PROJECT_DIR$/mongoDb/src/main/java/com/lzm/mongodb/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongoDb/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/Server/ChatRoomHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/Server/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/Server/NettyServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/Server/NettyWebsocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/client/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/client/NettyClientFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/client/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/client/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/server/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/server/NettyServerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/server/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello/server/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nettyDmo/src/main/resources/static/index.html" afterDir="false" />
+    <list default="true" id="ac4d24d6-0939-4eb0-9e49-b74383c7036b" name="Changes" comment="netty">
+      <change afterPath="$PROJECT_DIR$/ConsumerDubbo/src/main/java/com/lzm/consumerdubbo/Controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerDubbo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboApi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboProvide/src/main/java/com/lzm/dubboprovide/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboProvide/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -68,20 +67,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nettyDmo/src/main/java/com/lzm/netty/hello" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubboApi/src/main/java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12674272" />
     <property name="project.structure.side.proportion" value="0.26549587" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WorkSpace\MybatisAuto\nettyDmo\src\main\java\com\lzm\netty\hello" />
-      <recent name="E:\WorkSpace\MybatisAuto\nettyDmo\src\main\resources\static" />
-      <recent name="E:\WorkSpace\MybatisAuto\nettyDmo\src\main\java\com\lzm\netty" />
-      <recent name="E:\WorkSpace\MybatisAuto\mongoDb\src\main\resources" />
-      <recent name="E:\WorkSpace\MybatisAuto\mongodb\src\main\resources" />
+      <recent name="E:\WorkSpace\MybatisAuto\dubboApi\src\main\java" />
+      <recent name="E:\WorkSpace\MybatisAuto\ConsumerDubbo\src\main\java\com\lzm\consumerdubbo" />
+      <recent name="E:\WorkSpace\MybatisAuto\ConsumerDubbo\src\main\resources" />
+      <recent name="E:\WorkSpace\MybatisAuto\common\src\main\java\com\lzm\common\dubbo" />
+      <recent name="E:\WorkSpace\MybatisAuto\dubboConsumer\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WorkSpace\MybatisAuto\mongodb\src" />
@@ -89,12 +88,15 @@
       <recent name="E:\WorkSpace\MybatisAuto\mongodb\src\main\java" />
       <recent name="E:\WorkSpace\MybatisAuto\fegin\src\main" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lzm.dubboprovide" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lzm.consumerdubbo.Controller" />
       <recent name="com.lzm.fegin.controller" />
       <recent name="com.lzm.fegin" />
       <recent name="com.lzm.mybatisapi" />
       <recent name="com.lzm.mybatisapi.fallback" />
-      <recent name="com.lzm.mybatisapi.factory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,7 +111,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NettyClient">
+  <component name="RunManager" selected="Spring Boot.ConsumerDubboApplication">
     <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzm.netty.hello.client.NettyClient" />
       <module name="nettyDmo" />
@@ -136,36 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoDbApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongoDb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzm.mongodb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lzm.mongodb" />
-      <option name="MAIN_CLASS_NAME" value="com.lzm.mongodb.MongoDbApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MongoDbApplicationTests.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongoDb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzm.mongodb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lzm.mongodb" />
-      <option name="MAIN_CLASS_NAME" value="com.lzm.mongodb.MongoDbApplicationTests" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="MongoDbApplicationTests.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mongoDb" />
@@ -186,6 +160,33 @@
     <configuration name="ComonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDubboApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ConsumerDubbo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.consumerdubbo.ConsumerDubboApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubboConsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzm.dubboprovide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.dubboprovide.DubboConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubboProvide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzm.dubboprovide.DubboProvideApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,8 +262,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MongoDbApplicationTests" />
-      <item itemvalue="JUnit.MongoDbApplicationTests.add" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.NettyServer" />
       <item itemvalue="JUnit.MongoDbApplicationTests.find" />
       <item itemvalue="Spring Boot.ComonApplication" />
       <item itemvalue="Spring Boot.MybatisApiApplication" />
@@ -275,16 +276,18 @@
       <item itemvalue="Spring Boot.MongoDbApplication" />
       <item itemvalue="Spring Boot.NettyDmoApplication" />
       <item itemvalue="Spring Boot.FeginApplication" />
-      <item itemvalue="Application.NettyClient" />
-      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Spring Boot.DubboProvideApplication" />
+      <item itemvalue="Spring Boot.DubboConsumerApplication" />
+      <item itemvalue="Spring Boot.ConsumerDubboApplication" />
+      <item itemvalue="HTTP Request.generated-requests#10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests#10" />
+        <item itemvalue="Spring Boot.DubboConsumerApplication" />
         <item itemvalue="Application.NettyClient" />
         <item itemvalue="Application.NettyServer" />
         <item itemvalue="JUnit.MongoDbApplicationTests.find" />
-        <item itemvalue="JUnit.MongoDbApplicationTests.add" />
-        <item itemvalue="JUnit.MongoDbApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +311,10 @@
       <workItem from="1642451410417" duration="33049000" />
       <workItem from="1642770818870" duration="3505000" />
       <workItem from="1642780011726" duration="3559000" />
-      <workItem from="1642990235238" duration="2219000" />
+      <workItem from="1642990235238" duration="3320000" />
+      <workItem from="1643066794033" duration="612000" />
+      <workItem from="1643141288693" duration="1261000" />
+      <workItem from="1643146959789" duration="6032000" />
     </task>
     <task id="LOCAL-00001" summary="fegin  nacos   微服务">
       <created>1642468046369</created>
@@ -324,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642472144770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="netty">
+      <created>1642992629420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642992629421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +357,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fegin  nacos   微服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="fegin  nacos   微服务" />
+    <MESSAGE value="netty" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,22 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ConsumerDubbo" />
+        <module name="nettyDmo" />
+        <module name="dubboProvide" />
         <module name="mybatisApi" />
         <module name="mongodb" />
         <module name="mongoDb" />
-        <module name="nettyDmo" />
+        <module name="dubboApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubboConsumer" target="1.8" />
       <module name="mongodb" target="1.8" />
       <module name="MybatisApi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConsumerDubbo" options="-parameters" />
       <module name="MybatisApi" options="-parameters" />
       <module name="MybatisAuto" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="dubboApi" options="-parameters" />
+      <module name="dubboConsumer" options="-parameters" />
+      <module name="dubboProvide" options="-parameters" />
       <module name="fegin" options="-parameters" />
       <module name="mongoDb" options="-parameters" />
       <module name="mongodb" options="-parameters" />
